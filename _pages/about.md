@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Alireza Moslemihaghighi - Finance, Data, Curiosity"
+title: "FAiIn (AI in Finance!)"
 author_profile: true
 redirect_from: 
   - /about/
