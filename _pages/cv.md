@@ -48,16 +48,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Working Papers
-======
-* **Temporal Volatility Surface Projection: Parametric Surface Projection Method for Derivatives Portfolio Risk Management**, Co-authors: S. Zamani, H. Arian
-* **Introducing PCE 1.0: A New Persian Corpus for Comprehensive Cause-Effect Analysis with Question-Answering Integration**, Co-authors: M. Farahbakhsh, M. Fazli, E. Asgari
-* **Distributed Interference Cancellation in Multi-Agent Scenarios**, Co-authors: M. Shamsi, F. Marvasti
-
-Work in Progress
-======
-* **Optimizing Stock Portfolios Using Trading Data of Senior Shareholders**, Co-authors: M. Farahbakhsh, M. Fazli, E. Asgari
-
 Language Skills
 ======
 * **English:** TOEFL iBT (Total 104) – October 2023 (Reading: 30/30, Listening: 26/30, Speaking: 26/30, Writing: 22/30)
