@@ -24,20 +24,19 @@ author:
   avatar           : "profile.png"
   name             : "Alireza Moslemihaghighi"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "I’m a PhD student at Bocconi University, exploring finance, data, and machine learning. I enjoy learning new things and sharing ideas with others along the way."
+  location         : "Milan, Italy"
+  employer         : "Bocconi University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "alireza.moslemihaghighi@phd.unibocconi.it" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-2305-6125"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Alireza-Moslemi-Haghighi"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -48,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -57,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/alireza-mh1997"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
