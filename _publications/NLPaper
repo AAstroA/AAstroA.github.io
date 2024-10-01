@@ -1,10 +1,10 @@
 ---
-title: "Distributed interference cancellation in multi-agent scenarios"
+title: "Introducing PCE 1.0 : A New Persian Corpus for Comprehensive Cause-Effect Analysis with Question-Answering Integration"
 collection: publications
 category: workingpapers
 permalink: /publication/NLPaper
 excerpt: 'This research introduces PCE 1.0, a new Persian corpus designed to extract cause-and-effect relationships from text, advancing our understanding of causality in Persian-language content.'
-#date: 2019-10-22
+date: 2022-10-12
 #venue: 'arXiv'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 #paperurl: '[https://arxiv.org/abs/1910.10109](https://arxiv.org/abs/1910.10109)'
