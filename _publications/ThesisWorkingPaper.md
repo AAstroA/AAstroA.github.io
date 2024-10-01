@@ -1,7 +1,7 @@
 ---
 title: "Temporal Volatility Surface Projection- Parametric Surface Projection Method for Derivatives Portfolio Risk Management"
 collection: publications
-category: Working Papers
+category: workingpapers
 permalink: /publication/ThesisWorkingPaper
 excerpt: ' The study focuses on risk assessment by using the implied volatility surface, rather than a single volatility estimate.'
 date: 2023-10-25
