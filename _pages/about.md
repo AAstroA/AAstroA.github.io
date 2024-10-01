@@ -1,5 +1,5 @@
 ---
-permalink: /https://aastroa.github.io
+permalink: /https://aastroa.github.io/
 title: "Alireza Moslemihaghighi - Finance, Data, Curiosity"
 author_profile: true
 redirect_from: 
