@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name /s Site Title"
+title                    : "FAiIn (AI in Finance!)"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Alireza Moslemihaghighi"
+description              : &description "I’m a PhD student at Bocconi University, exploring finance, data, and machine learning. I enjoy learning new things and sharing ideas with others along the way."
 url                      : https://aastroa.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "AAstroA/AAstroA.github.io"
@@ -22,7 +22,7 @@ repository               : "AAstroA/AAstroA.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Alireza Moslemihaghighi"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
