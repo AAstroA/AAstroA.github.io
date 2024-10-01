@@ -44,8 +44,9 @@ Awards & Honors
 
 Publications
 ======
-* **A Flexible Approach to Interference Cancellation in Distributed Sensor Networks**, IEEE Communications Letters
-* **Solutions Manual for *High Dimensional Statistics- A Non-Asymptotic Viewpoint* by Martin J. Wainwright**, Unpublished Solution Manual
+<ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Working Papers
 ======
