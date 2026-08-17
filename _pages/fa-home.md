@@ -14,13 +14,13 @@ excerpt: "دانشجوی دکتری مالی در دانشگاه بوکونی ب
       <p class="fa-kicker">دانشگاه بوکونی · دکتری اقتصاد و مالی</p>
 
       <div class="fa-hero__identity">
+        <figure class="fa-hero__portrait">
+          <img src="{{ '/images/alireza-portrait-2026.jpg' | relative_url }}" alt="تصویر علیرضا مسلمی‌حقیقی">
+        </figure>
         <div class="fa-hero__name">
           <h1 id="fa-hero-title">علیرضا<br><span>مسلمی‌حقیقی</span></h1>
           <small lang="en" dir="ltr">Alireza Moslemihaghighi</small>
         </div>
-        <figure class="fa-hero__portrait">
-          <img src="{{ '/images/alireza-portrait-2026.jpg' | relative_url }}" alt="تصویر علیرضا مسلمی‌حقیقی">
-        </figure>
       </div>
 
       <p class="fa-hero__lede">بررسی می‌کنم که باورها، سامانه‌های هوشمند و شبکه‌های مالی چگونه قیمت دارایی‌ها، ارزها، تولید و ساختار اقتصاد را شکل می‌دهند.</p>
@@ -104,7 +104,7 @@ excerpt: "دانشجوی دکتری مالی در دانشگاه بوکونی ب
   </article>
 
   <article class="fa-story fa-story--students">
-    <p class="fa-kicker">برای دانشجویان</p>
+    <p class="fa-kicker">ابزارهای آموزشی</p>
     <h2>مفاهیم مالی را به‌صورت تعاملی تجربه کنید</h2>
     <p>با ابزارهای مرورگرمحور، اثر تغییر فرض‌ها را بر مرز کارا، پرتفوی مماس و تخصیص سرمایه ببینید و شهود اقتصادی مدل‌ها را بهتر درک کنید.</p>
     <a class="fa-button fa-button--primary" href="{{ '/fa/playground/' | relative_url }}">ورود به ابزارهای آموزشی <span aria-hidden="true">←</span></a>
@@ -114,6 +114,6 @@ excerpt: "دانشجوی دکتری مالی در دانشگاه بوکونی ب
 <section class="fa-home-contact" data-reveal>
   <p class="fa-kicker">ارتباط</p>
   <h2>برای گفت‌وگو و همکاری در تماس باشید</h2>
-  <p>برای تبادل نظر درباره پژوهش، همکاری آموزشی یا پرسش درباره ابزارهای دانشجویی می‌توانید از طریق ایمیل با من در ارتباط باشید.</p>
+  <p>برای تبادل نظر درباره پژوهش، همکاری آموزشی یا پرسش درباره ابزارهای آموزشی می‌توانید از طریق ایمیل با من در ارتباط باشید.</p>
   <a href="mailto:alireza.moslemihaghighi@unibocconi.it"><span dir="ltr">alireza.moslemihaghighi@unibocconi.it</span> <span aria-hidden="true">↗</span></a>
 </section>

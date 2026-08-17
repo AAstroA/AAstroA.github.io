@@ -9,11 +9,67 @@ translation_url: /publications/
 author_profile: false
 ---
 
+<style>
+  .publication-card--fa-clean {
+    grid-template-columns: 140px minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    row-gap: 1.35rem;
+    align-items: start;
+  }
+
+  .publication-card--fa-clean .publication-card__meta {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    grid-column: 1 / -1;
+    grid-row: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+  }
+
+  .publication-card--fa-clean .publication-card__year {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .publication-card--fa-clean .publication-card__body {
+    min-width: 0;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .publication-card--fa-clean .publication-card__body h2 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 760px) {
+    .publication-card--fa-clean {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+    }
+
+    .publication-card--fa-clean .publication-card__meta,
+    .publication-card--fa-clean .publication-card__year,
+    .publication-card--fa-clean .publication-card__body {
+      grid-column: 1;
+    }
+
+    .publication-card--fa-clean .publication-card__meta { grid-row: 1; }
+    .publication-card--fa-clean .publication-card__year { grid-row: 2; }
+    .publication-card--fa-clean .publication-card__body { grid-row: 3; }
+  }
+</style>
+
 <div class="publication-stack" data-reveal>
-  <article class="publication-card publication-card--featured">
+  <article class="publication-card publication-card--featured publication-card--fa-clean">
+    <p class="section-kicker publication-card__meta">مقاله پژوهشی · <span class="latin" dir="ltr">IEEE Communications Letters</span></p>
     <div class="publication-card__year">۲۰۲۱</div>
     <div class="publication-card__body">
-      <p class="section-kicker">مقاله پژوهشی · <span class="latin" dir="ltr">IEEE Communications Letters</span></p>
       <h2>روشی انعطاف‌پذیر برای حذف تداخل در شبکه‌های حسگر توزیع‌شده</h2>
       <p class="publication-card__authors"><span class="latin" dir="ltr">M. Shamsi, A. M. Haghighi, N. Bagheri, and F. Marvasti</span></p>
       <p>روشی عملکردمحور برای تنظیم وزن‌های ترکیبی در شبکه‌های توزیع‌شده که در برابر نویزی یا معیوب شدن گره‌ها مقاوم می‌ماند.</p>
