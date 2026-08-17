@@ -1,0 +1,6 @@
+/* Small Persian-only spacing refinements for the playground. */
+@media (min-width: 769px) {
+  .persian-theme .source-grid {
+    column-gap: clamp(3.5rem, 5vw, 5rem);
+  }
+}
