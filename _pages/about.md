@@ -9,6 +9,117 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+/* Precise homepage identity placement: portrait sits on the same surface as the name. */
+.cosmos-hero__copy .hero-identity {
+  position: relative !important;
+  display: block !important;
+  width: min(100%, 760px) !important;
+  min-height: clamp(150px, 13vw, 185px);
+  margin: 0.35rem 0 1.35rem !important;
+  padding: 0 !important;
+}
+
+.cosmos-hero__copy .hero-identity .hero-portrait {
+  position: absolute !important;
+  left: 0 !important;
+  top: 50% !important;
+  bottom: auto !important;
+  width: clamp(128px, 10.5vw, 160px) !important;
+  aspect-ratio: 0.94 / 1 !important;
+  margin: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 22px !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: translateY(-50%) !important;
+}
+
+.cosmos-hero__copy .hero-identity .hero-portrait::after {
+  display: none !important;
+}
+
+.cosmos-hero__copy .hero-identity .hero-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
+}
+
+.cosmos-hero__copy .hero-identity h1 {
+  margin: 0 !important;
+  padding-left: clamp(150px, 12.5vw, 190px) !important;
+  font-size: clamp(2.95rem, 4.2vw, 4.4rem) !important;
+  line-height: 0.91 !important;
+  letter-spacing: 0.004em !important;
+}
+
+@media (max-width: 1080px) {
+  .cosmos-hero__copy .hero-identity {
+    min-height: 150px;
+  }
+
+  .cosmos-hero__copy .hero-identity .hero-portrait {
+    width: 124px !important;
+  }
+
+  .cosmos-hero__copy .hero-identity h1 {
+    padding-left: 145px !important;
+    font-size: clamp(2.8rem, 5vw, 3.75rem) !important;
+    letter-spacing: 0.003em !important;
+  }
+}
+
+@media (max-width: 860px) {
+  .cosmos-hero__copy .hero-identity {
+    min-height: 132px;
+  }
+
+  .cosmos-hero__copy .hero-identity .hero-portrait {
+    width: 108px !important;
+  }
+
+  .cosmos-hero__copy .hero-identity h1 {
+    padding-left: 126px !important;
+    font-size: clamp(2.75rem, 8vw, 3.65rem) !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .cosmos-hero__copy .hero-identity {
+    min-height: 104px;
+    margin-bottom: 1rem !important;
+  }
+
+  .cosmos-hero__copy .hero-identity .hero-portrait {
+    width: 84px !important;
+    border-radius: 16px !important;
+  }
+
+  .cosmos-hero__copy .hero-identity h1 {
+    padding-left: 99px !important;
+    font-size: clamp(2.25rem, 10.6vw, 2.9rem) !important;
+    letter-spacing: 0.002em !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .cosmos-hero__copy .hero-identity {
+    min-height: 86px;
+  }
+
+  .cosmos-hero__copy .hero-identity .hero-portrait {
+    width: 70px !important;
+  }
+
+  .cosmos-hero__copy .hero-identity h1 {
+    padding-left: 82px !important;
+    font-size: clamp(2rem, 9.4vw, 2.45rem) !important;
+  }
+}
+</style>
+
 <section class="cosmos-hero" aria-labelledby="hero-title">
   <div class="cosmos-hero__copy">
     <p class="section-kicker"><span aria-hidden="true"></span>Bocconi University · PhD in Economics and Finance</p>
