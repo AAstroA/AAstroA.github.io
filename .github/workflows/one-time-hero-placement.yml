@@ -1,0 +1,10 @@
+name: One-time hero portrait placement
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hero placement handled directly in repository"
