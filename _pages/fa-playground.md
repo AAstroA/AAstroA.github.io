@@ -68,7 +68,7 @@ author_profile: false
         <span class="source-card__icon" aria-hidden="true">⌘</span>
         <h3>ابزار متن‌باز برای کلاس و مطالعه شخصی</h3>
         <p>این آزمایشگاه با <span class="latin" dir="ltr">HTML, CSS, and JavaScript</span> ساخته شده و همه محاسبات به‌صورت محلی در مرورگر اجرا می‌شوند.</p>
-        <a class="cosmos-button" href="https://github.com/AAstroA/Playground-for-Students">مشاهده مخزن <span aria-hidden="true">↗</span></a>
+        <a class="cosmos-button" href="https://github.com/AAstroA/Playground-for-Students">مشاهده کد پروژه <span aria-hidden="true">↗</span></a>
       </article>
     </div>
   </section>
