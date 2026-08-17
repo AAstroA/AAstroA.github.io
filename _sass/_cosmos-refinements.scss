@@ -196,3 +196,59 @@
     flex-direction: column;
   }
 }
+
+/* Homepage hero refinement: calmer name treatment and anchored portrait */
+.cosmos-hero h1 {
+  margin-left: 0.55rem;
+  font-size: clamp(3.35rem, 7vw, 6.8rem);
+  letter-spacing: -0.045em;
+}
+
+.hero-portrait {
+  left: 12%;
+  bottom: 5.5%;
+  width: clamp(124px, 10vw, 150px);
+  transform: rotate(0deg);
+}
+
+@media (max-width: 1080px) {
+  .cosmos-hero h1 {
+    margin-left: 0.4rem;
+    font-size: clamp(3.2rem, 7.2vw, 6.1rem);
+    letter-spacing: -0.043em;
+  }
+
+  .hero-portrait {
+    left: 11%;
+    bottom: 5%;
+    width: 138px;
+  }
+}
+
+@media (max-width: 860px) {
+  .cosmos-hero h1 {
+    margin-left: 0.22rem;
+    font-size: clamp(3rem, 11vw, 5.5rem);
+    letter-spacing: -0.04em;
+  }
+
+  .hero-portrait {
+    left: 10%;
+    bottom: 4.5%;
+    width: 130px;
+  }
+}
+
+@media (max-width: 620px) {
+  .cosmos-hero h1 {
+    margin-left: 0.1rem;
+    font-size: clamp(2.85rem, 16.5vw, 4.55rem);
+    letter-spacing: -0.036em;
+  }
+
+  .hero-portrait {
+    left: 7%;
+    bottom: 2%;
+    width: 104px;
+  }
+}
