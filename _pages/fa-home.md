@@ -10,12 +10,25 @@ excerpt: "دانشجوی دکتری مالی در دانشگاه بوکونی ب
 
 <style>
   .page-fa .fa-hero__identity {
-    grid-template-columns: clamp(128px, 12vw, 190px) minmax(0, 1fr);
+    display: flex;
+    align-items: center;
+    gap: clamp(1.2rem, 2.8vw, 2.6rem);
+  }
+
+  .page-fa .fa-hero__portrait {
+    width: clamp(130px, 9vw, 160px);
+    flex: 0 0 clamp(130px, 9vw, 160px);
+  }
+
+  .page-fa .fa-hero__name {
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
   @media (max-width: 720px) {
-    .page-fa .fa-hero__identity {
-      grid-template-columns: 112px minmax(0, 1fr);
+    .page-fa .fa-hero__portrait {
+      width: 100px;
+      flex-basis: 100px;
     }
   }
 </style>
