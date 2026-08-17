@@ -12,13 +12,13 @@ main:
     url: /cv/
 
 fa:
-  - title: "پژوهش"
+  - title: "پژوهش‌ها"
     url: /fa/research/
 
   - title: "انتشارات"
     url: /fa/publications/
 
-  - title: "آزمایشگاه"
+  - title: "دانشجویان"
     url: /fa/playground/
 
   - title: "رزومه"

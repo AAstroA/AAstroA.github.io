@@ -4,6 +4,7 @@ layout: compress
 
 {% include base_path %}
 {% assign page_lang = page.lang | default: site.locale | slice: 0, 2 %}
+{% assign page_slug = page.url | slugify %}
 
 <!doctype html>
 <html lang="{{ page_lang }}" dir="{% if page_lang == 'fa' %}rtl{% else %}ltr{% endif %}" class="no-js">
@@ -12,7 +13,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="{% if page_lang == 'fa' %}persian-theme{% endif %}">
+  <body class="{% if page_lang == 'fa' %}persian-theme{% endif %}{% if page_slug %} page-{{ page_slug }}{% endif %}">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

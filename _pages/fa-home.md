@@ -5,113 +5,115 @@ layout: cosmos-home
 lang: fa
 translation_url: /
 author_profile: false
-excerpt: "پژوهشگر دکتری مالی در دانشگاه بوکونی با تمرکز بر قیمت‌گذاری دارایی، مالی کلان، شبکه‌های مالی و هوش مصنوعی."
+excerpt: "دانشجوی دکتری مالی در دانشگاه بوکونی با تمرکز بر قیمت‌گذاری دارایی، مالی کلان، شبکه‌های مالی و هوش مصنوعی."
 ---
 
-<section class="cosmos-hero persian-hero" aria-labelledby="hero-title-fa">
-  <div class="cosmos-hero__copy persian-hero__copy">
-    <p class="section-kicker"><span aria-hidden="true"></span>دانشگاه بوکونی · دکتری اقتصاد و مالی</p>
+<section class="fa-hero" aria-labelledby="fa-hero-title">
+  <div class="fa-hero__stage">
+    <div class="fa-hero__copy">
+      <p class="fa-kicker">دانشگاه بوکونی · دکتری اقتصاد و مالی</p>
 
-    <div class="hero-identity persian-identity">
-      <figure class="hero-portrait persian-portrait">
-        <img src="{{ '/images/alireza-portrait-2026.jpg' | relative_url }}" alt="تصویر علیرضا مسلمی‌حقیقی">
-      </figure>
-      <div class="persian-identity__name">
-        <h1 id="hero-title-fa">علیرضا<br><span>مسلمی‌حقیقی</span></h1>
-        <small lang="en" dir="ltr">Alireza Moslemihaghighi</small>
+      <div class="fa-hero__identity">
+        <div class="fa-hero__name">
+          <h1 id="fa-hero-title">علیرضا<br><span>مسلمی‌حقیقی</span></h1>
+          <small lang="en" dir="ltr">Alireza Moslemihaghighi</small>
+        </div>
+        <figure class="fa-hero__portrait">
+          <img src="{{ '/images/alireza-portrait-2026.jpg' | relative_url }}" alt="تصویر علیرضا مسلمی‌حقیقی">
+        </figure>
+      </div>
+
+      <p class="fa-hero__lede">بررسی می‌کنم که باورها، سامانه‌های هوشمند و شبکه‌های مالی چگونه قیمت دارایی‌ها، ارزها، تولید و ساختار اقتصاد را شکل می‌دهند.</p>
+
+      <div class="fa-actions">
+        <a class="fa-button fa-button--primary" href="{{ '/fa/research/' | relative_url }}">مشاهده پژوهش‌ها <span aria-hidden="true">←</span></a>
+        <a class="fa-button" href="{{ '/fa/cv/' | relative_url }}">مشاهده رزومه <span aria-hidden="true">←</span></a>
+      </div>
+
+      <div class="fa-hero__themes" aria-label="محورهای پژوهش">
+        <article>
+          <span>۰۱</span>
+          <strong>شبکه‌های بین‌المللی و ارزها</strong>
+          <small>باورها و واسطه‌های مالی در اقتصاد جهانی</small>
+        </article>
+        <article>
+          <span>۰۲</span>
+          <strong>هوش مصنوعی در مالی</strong>
+          <small>پیامدهای سامانه‌های هوشمند برای تولید و تخصیص منابع</small>
+        </article>
+        <article>
+          <span>۰۳</span>
+          <strong>مالی کلان</strong>
+          <small>پیوند بازارهای مالی، جریان سرمایه و اقتصاد کلان</small>
+        </article>
       </div>
     </div>
-
-    <p class="cosmos-hero__lede">بررسی می‌کنم که باورها، سامانه‌های هوشمند و شبکه‌های مالی چگونه قیمت دارایی‌ها، ارزها، تولید و اقتصاد گسترده‌تر را شکل می‌دهند.</p>
-
-    <div class="cosmos-actions">
-      <a class="cosmos-button cosmos-button--primary" href="{{ '/fa/research/' | relative_url }}">مشاهده پژوهش‌ها <span aria-hidden="true">←</span></a>
-      <a class="cosmos-button" href="{{ '/fa/cv/' | relative_url }}">مشاهده رزومه <span aria-hidden="true">←</span></a>
-    </div>
-
-    <dl class="hero-facts" aria-label="خلاصه مشخصات">
-      <div><dt>دوره</dt><dd>دکتری، ۲۰۲۴–۲۰۲۸</dd></div>
-      <div><dt>محل</dt><dd>میلان، ایتالیا</dd></div>
-      <div><dt>حوزه‌ها</dt><dd>مالی · هوش مصنوعی · شبکه‌ها</dd></div>
-    </dl>
   </div>
 
-  <div class="cosmos-hero__visual achaemenid-visual">
-    <figure class="achaemenid-hero-card">
-      <div class="achaemenid-hero-card__image">
-        <img src="{{ '/images/achaemenid-home-art.webp' | relative_url }}" alt="تصویری هنری الهام‌گرفته از نقش‌برجسته‌ها و معماری هخامنشی">
-      </div>
-      <figcaption class="achaemenid-hero-card__topics" aria-label="موضوعات پژوهشی">
-        <span>قیمت‌گذاری دارایی</span>
-        <span>مالی کلان</span>
-        <span>هوش مصنوعی در مالی</span>
-      </figcaption>
-    </figure>
-  </div>
+  <dl class="fa-hero__facts" aria-label="خلاصه مشخصات">
+    <div><dt>دوره</dt><dd>دکتری، ۲۰۲۴–۲۰۲۸</dd></div>
+    <div><dt>محل</dt><dd>میلان، ایتالیا</dd></div>
+    <div><dt>حوزه‌ها</dt><dd>مالی · هوش مصنوعی · شبکه‌ها</dd></div>
+    <div><dt>دانشگاه</dt><dd>دانشگاه بوکونی</dd></div>
+  </dl>
 </section>
 
-<section class="cosmos-section persian-section" data-reveal>
-  <div class="section-heading">
-    <div>
-      <p class="section-kicker">منظومه پژوهشی</p>
-      <h2>پرسش‌هایی در تقاطع بازارها، باورها و فناوری.</h2>
-    </div>
-    <a class="text-link" href="{{ '/fa/research/' | relative_url }}">همه پژوهش‌ها <span aria-hidden="true">←</span></a>
-  </div>
+<section class="fa-home-section fa-home-research" data-reveal>
+  <header class="fa-section-heading">
+    <p class="fa-kicker">پژوهش‌ها</p>
+    <h2>پرسش‌هایی درباره بازارها، باورها و فناوری</h2>
+    <p>پروژه‌های من از مدل‌های نظری، داده‌های بین‌المللی و روش‌های محاسباتی برای مطالعه سازوکارهای مالی استفاده می‌کنند.</p>
+    <a class="fa-text-link" href="{{ '/fa/research/' | relative_url }}">مشاهده همه پژوهش‌ها <span aria-hidden="true">←</span></a>
+  </header>
 
-  <div class="research-grid">
-    <article class="research-card research-card--featured">
-      <p class="card-index">۰۱ · ارزها</p>
+  <div class="fa-research-list">
+    <article class="fa-research-item">
+      <p class="fa-research-item__index">۰۱ · ارزها</p>
       <h3>شبکه باورهای بین‌المللی و ارزها</h3>
       <p>چارچوبی چندکشوری که در آن تعدیل نرخ ارز از شبکه کامل انتظارات واسطه‌های مالی و مرکزیت محلی آن‌ها اثر می‌پذیرد.</p>
-      <p class="card-meta">با <span dir="ltr">M. Croce، R. Colacito و F. Gerding</span></p>
+      <p class="fa-research-item__authors">با همکاری <span class="latin" dir="ltr">M. Croce, R. Colacito, and F. Gerding</span></p>
     </article>
 
-    <article class="research-card">
-      <p class="card-index">۰۲ · هوش مصنوعی در مالی</p>
-      <h3>هوش مصنوعی و دگرگونی کار تخصصی</h3>
-      <p>مدلی کلان برای مطالعه اینکه هوش مصنوعی چگونه شکل‌گیری سرمایه انسانی، مسیر شغلی و ترکیب نیروهای جوان و ارشد را تغییر می‌دهد.</p>
-      <p class="card-meta">با <span dir="ltr">M. Croce و S. Raymond</span></p>
+    <article class="fa-research-item">
+      <p class="fa-research-item__index">۰۲ · هوش مصنوعی</p>
+      <h3>هوش مصنوعی و تحول کار تخصصی</h3>
+      <p>مدلی کلان برای بررسی اثر هوش مصنوعی بر شکل‌گیری سرمایه انسانی، مسیر شغلی و ترکیب نیروهای جوان و ارشد.</p>
+      <p class="fa-research-item__authors">با همکاری <span class="latin" dir="ltr">M. Croce and S. Raymond</span></p>
     </article>
 
-    <article class="research-card">
-      <p class="card-index">۰۳ · شبکه‌ها</p>
+    <article class="fa-research-item">
+      <p class="fa-research-item__index">۰۳ · شبکه‌ها</p>
       <h3>حذف تداخل تطبیقی</h3>
-      <p>پژوهشی منتشرشده درباره وزن‌دهی مقاوم و عملکردمحور در شبکه‌های حسگر توزیع‌شده؛ پیوندی میان پردازش سیگنال و سامانه‌های چندعاملی تاب‌آور.</p>
-      <p class="card-meta"><span dir="ltr">IEEE Communications Letters · 2021</span></p>
+      <p>روشی مقاوم و عملکردمحور برای وزن‌دهی در شبکه‌های حسگر توزیع‌شده و سامانه‌های چندعاملی.</p>
+      <p class="fa-research-item__authors"><span class="latin" dir="ltr">IEEE Communications Letters · 2021</span></p>
     </article>
   </div>
 </section>
 
-<section class="cosmos-section cosmos-section--split persian-section" data-reveal>
-  <div class="split-panel split-panel--profile">
-    <p class="section-kicker">مسیر کنونی</p>
-    <h2>دستیار پژوهشی در دانشگاه بوکونی.</h2>
-    <p>از دسامبر ۲۰۲۴ در پروژه‌های پروفسور اوتاویانو، پروفسور گودکر و آزمایشگاه فین‌تک بوکونی درباره تجارت بین‌الملل، شبکه‌های مالی و رفتار واسطه‌ها همکاری پژوهشی دارم.</p>
-    <div class="tag-cloud" aria-label="علایق پژوهشی">
-      <span>قیمت‌گذاری دارایی</span><span>مالی کلان</span><span>هوش مصنوعی در مالی</span><span>مالی کمی</span>
+<section class="fa-home-section fa-home-duo" data-reveal>
+  <article class="fa-story fa-story--current">
+    <p class="fa-kicker">فعالیت دانشگاهی کنونی</p>
+    <h2>همکاری پژوهشی در دانشگاه بوکونی</h2>
+    <p>از دسامبر ۲۰۲۴ در پروژه‌های پروفسور اوتاویانو، پروفسور گودکر و آزمایشگاه فین‌تک بوکونی درباره تجارت بین‌الملل، شبکه‌های مالی و رفتار واسطه‌ها همکاری می‌کنم.</p>
+    <div class="fa-tags" aria-label="علایق پژوهشی">
+      <span>قیمت‌گذاری دارایی</span>
+      <span>مالی کلان</span>
+      <span>هوش مصنوعی در مالی</span>
+      <span>مالی کمی</span>
     </div>
-  </div>
+  </article>
 
-  <div class="split-panel split-panel--playground">
-    <div class="mini-frontier" aria-hidden="true">
-      <svg viewBox="0 0 420 210" role="img">
-        <path class="mini-grid" d="M25 170H395M25 120H395M25 70H395M75 20V190M155 20V190M235 20V190M315 20V190"/>
-        <path class="mini-curve" d="M45 178C90 160 120 127 155 92C200 47 245 29 371 25"/>
-        <path class="mini-line" d="M45 169L371 31"/>
-        <circle cx="202" cy="62" r="6"/>
-      </svg>
-    </div>
-    <p class="section-kicker">برای دانشجویان</p>
-    <h2>مفاهیم مالی که می‌توان با آن‌ها کار کرد.</h2>
-    <p>ابزارهای تعاملی آموزشی را مستقیماً از این وب‌سایت باز کنید؛ از جمله آزمایشگاه مرورگری میانگین–واریانس مارکویتز.</p>
-    <a class="cosmos-button cosmos-button--primary" href="{{ '/fa/playground/' | relative_url }}">ورود به آزمایشگاه <span aria-hidden="true">←</span></a>
-  </div>
+  <article class="fa-story fa-story--students">
+    <p class="fa-kicker">برای دانشجویان</p>
+    <h2>مفاهیم مالی را به‌صورت تعاملی تجربه کنید</h2>
+    <p>با ابزارهای مرورگرمحور، اثر تغییر فرض‌ها را بر مرز کارا، پرتفوی مماس و تخصیص سرمایه ببینید و شهود اقتصادی مدل‌ها را بهتر درک کنید.</p>
+    <a class="fa-button fa-button--primary" href="{{ '/fa/playground/' | relative_url }}">ورود به ابزارهای آموزشی <span aria-hidden="true">←</span></a>
+  </article>
 </section>
 
-<section class="cosmos-contact persian-contact" data-reveal>
-  <p class="section-kicker">ارتباط</p>
-  <h2>ایده‌ها در گفت‌وگو دورتر می‌روند.</h2>
-  <p>برای گفت‌وگوی پژوهشی، همکاری آموزشی یا پرسش درباره ابزارهای دانشجویی از طریق ایمیل با من در تماس باشید.</p>
+<section class="fa-home-contact" data-reveal>
+  <p class="fa-kicker">ارتباط</p>
+  <h2>برای گفت‌وگو و همکاری در تماس باشید</h2>
+  <p>برای تبادل نظر درباره پژوهش، همکاری آموزشی یا پرسش درباره ابزارهای دانشجویی می‌توانید از طریق ایمیل با من در ارتباط باشید.</p>
   <a href="mailto:alireza.moslemihaghighi@unibocconi.it"><span dir="ltr">alireza.moslemihaghighi@unibocconi.it</span> <span aria-hidden="true">↗</span></a>
 </section>
