@@ -1,0 +1,232 @@
+
+/* CV */
+.cv-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 4rem;
+  padding: 1rem 1.2rem;
+  background: rgba(8, 13, 25, 0.8);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.cv-toolbar > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-toolbar span {
+  color: var(--ink-2);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cv-toolbar strong {
+  color: var(--ink-0);
+  font-size: 0.9rem;
+}
+
+.cv-section {
+  display: grid;
+  margin-bottom: 6rem;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: clamp(2rem, 6vw, 6rem);
+}
+
+.cv-section__heading {
+  position: sticky;
+  top: 110px;
+  align-self: start;
+}
+
+.cv-section__heading span {
+  color: var(--cyan);
+  font-size: 0.64rem;
+  font-weight: 740;
+  letter-spacing: 0.14em;
+}
+
+.cv-section__heading h2 {
+  margin: 0.5rem 0 0;
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.cv-timeline {
+  border-top: 1px solid var(--line);
+}
+
+.cv-timeline article {
+  display: grid;
+  padding: 1.6rem 0;
+  grid-template-columns: 145px 1fr;
+  gap: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.cv-timeline__date {
+  color: var(--ink-2);
+  font-size: 0.72rem;
+  font-weight: 680;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+}
+
+.cv-timeline__date small {
+  color: var(--cyan);
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+
+.cv-timeline h3,
+.cv-card h3,
+.skills-grid h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  letter-spacing: -0.015em;
+}
+
+.cv-timeline p,
+.cv-card p,
+.skills-grid p {
+  margin: 0 0 0.7rem;
+  color: var(--ink-2);
+  font-size: 0.82rem;
+}
+
+.cv-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.cv-card {
+  min-height: 250px;
+  padding: 1.5rem;
+  background: rgba(8, 13, 25, 0.76);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.cv-card--wide {
+  grid-column: 1 / -1;
+}
+
+.cv-card h3 + p + h3 {
+  margin-top: 1.5rem;
+}
+
+.award-list {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+}
+
+.award-list li {
+  display: grid;
+  align-items: baseline;
+  margin: 0;
+  padding: 1.05rem 0;
+  grid-template-columns: 65px 1.1fr 1fr;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.award-list span {
+  color: var(--cyan);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.award-list strong {
+  color: var(--ink-0);
+  font-size: 0.83rem;
+}
+
+.award-list small {
+  color: var(--ink-2);
+  font-size: 0.75rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  overflow: hidden;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.skills-grid article {
+  min-height: 150px;
+  padding: 1.25rem;
+  background: rgba(8, 13, 25, 0.96);
+}
+
+/* Publications */
+.publication-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.publication-card {
+  display: grid;
+  padding: clamp(1.7rem, 4vw, 3.2rem);
+  grid-template-columns: 125px minmax(0, 1fr);
+  gap: clamp(1.5rem, 5vw, 4.5rem);
+  background: rgba(8, 13, 25, 0.8);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+
+.publication-card--featured {
+  background:
+    radial-gradient(circle at 90% 10%, rgba(136, 220, 255, 0.12), transparent 15rem),
+    linear-gradient(145deg, rgba(18, 31, 55, 0.88), rgba(8, 13, 25, 0.88));
+}
+
+.publication-card__year {
+  color: transparent;
+  font-size: clamp(2.6rem, 5vw, 5.2rem);
+  font-weight: 740;
+  line-height: 1;
+  -webkit-text-stroke: 1px rgba(136, 220, 255, 0.34);
+}
+
+.publication-card h2 {
+  max-width: 850px;
+  margin: 0.25rem 0 0.7rem;
+  font-size: clamp(1.8rem, 4vw, 3.7rem);
+  line-height: 1.04;
+  letter-spacing: -0.055em;
+}
+
+.publication-card__body > p:not(.section-kicker):not(.publication-card__authors) {
+  color: var(--ink-2);
+}
+
+.scholar-callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
+  padding: clamp(1.7rem, 4vw, 3rem);
+  background: rgba(8, 13, 25, 0.72);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+
+.scholar-callout h2 {
+  font-size: clamp(1.8rem, 3.5vw, 3.1rem);
+}
+
+.scholar-callout p:not(.section-kicker) {
+  margin-bottom: 0;
+  color: var(--ink-2);
+}
