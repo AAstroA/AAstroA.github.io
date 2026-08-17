@@ -1,0 +1,27 @@
+name: Check Jekyll site
+
+on:
+  pull_request:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --trace
+        env:
+          JEKYLL_ENV: production
