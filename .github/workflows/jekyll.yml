@@ -42,6 +42,25 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Restore CV PDF
+        run: |
+          mkdir -p files
+          cat \
+            _cv_pdf_chunks/00.b64 \
+            _cv_pdf_chunks/01.b64 \
+            _cv_pdf_chunks/02.b64 \
+            _cv_pdf_chunks/03.b64 \
+            _cv_pdf_chunks/04.b64 \
+            _cv_pdf_chunks/05.b64 \
+            _cv_pdf_chunks/06.b64 \
+            _cv_pdf_chunks/07a.b64 \
+            _cv_pdf_chunks/07b.b64 \
+            _cv_pdf_chunks/08a.b64 \
+            _cv_pdf_chunks/08b.b64 \
+            _cv_pdf_chunks/09a.b64 \
+            _cv_pdf_chunks/09b.b64 \
+            | base64 --decode > files/alireza-moslemihaghighi-cv.pdf
+          echo "63550536275492ddfce7f03299401ab7ad4a7ddd13b7c561f0902116f5afa749  files/alireza-moslemihaghighi-cv.pdf" | sha256sum -c -
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"

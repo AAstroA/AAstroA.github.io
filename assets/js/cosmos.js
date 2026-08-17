@@ -66,7 +66,9 @@
     });
 
     Array.prototype.forEach.call(document.querySelectorAll('[data-print-cv]'), function (button) {
-      button.addEventListener('click', function () { window.print(); });
+      button.addEventListener('click', function () {
+        window.open('/files/alireza-moslemihaghighi-cv.pdf', '_blank', 'noopener');
+      });
     });
 
     var revealItems = document.querySelectorAll('[data-reveal]');
