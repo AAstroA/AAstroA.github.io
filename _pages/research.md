@@ -2,7 +2,7 @@
 layout: cosmos-page
 title: "Research"
 eyebrow: "Markets as connected systems"
-description: "My work combines asset pricing, macro-finance, international networks, and artificial intelligence to study how expectations and technology propagate through economies."
+description: "My work combines asset pricing, macro-finance, international networks, and artificial intelligence to study how expectations, technology, and intelligent systems propagate through economies."
 permalink: /research/
 author_profile: false
 ---
@@ -21,7 +21,7 @@ author_profile: false
   <article>
     <span>03</span>
     <h2>AI in Finance</h2>
-    <p>How intelligent systems alter production, human-capital accumulation, and the organization of skilled work.</p>
+    <p>How intelligent systems reshape production, firms, markets, human capital, and the allocation of economic activity.</p>
   </article>
   <article>
     <span>04</span>
@@ -45,12 +45,18 @@ author_profile: false
 <section class="research-detail" data-reveal>
   <div class="research-detail__number">02</div>
   <div class="research-detail__body">
-    <p class="section-kicker">Working paper</p>
-    <h2>Artificial intelligence and the transformation of skilled work</h2>
-    <p class="research-detail__authors">With M. Croce and S. Raymond</p>
-    <p>We develop a macroeconomic model to study how artificial intelligence reshapes the allocation and accumulation of skilled labor across junior and senior roles. Junior work contributes not only to current production, but also to the formation of future senior expertise.</p>
-    <p>The framework examines how AI adoption affects human capital, career progression, and the composition of skilled employment, and evaluates policies designed to align private incentives with the broader social value of training, data creation, and workforce development.</p>
-    <div class="research-tags"><span>Artificial intelligence</span><span>Human capital</span><span>Labor allocation</span><span>Policy</span></div>
+    <p class="section-kicker">Research area</p>
+    <h2>AI in Finance</h2>
+    <p>My research in this area asks how intelligent systems alter the economy more broadly: production, firm organization, market structure, decision-making, human-capital formation, and the distribution of economic activity. Skilled work is one important margin within this larger agenda, rather than the defining scope of it.</p>
+
+    <div class="ai-project-note">
+      <p class="section-kicker">Current project</p>
+      <h3>Artificial intelligence and the transformation of skilled work</h3>
+      <p class="research-detail__authors">With M. Croce and S. Raymond</p>
+      <p>We develop a macroeconomic model of how AI changes the allocation and accumulation of skilled labor across junior and senior roles. The project studies implications for production, human capital, career progression, and policies that account for the social value of training, data creation, and workforce development.</p>
+    </div>
+
+    <div class="research-tags"><span>Artificial intelligence</span><span>Production</span><span>Market structure</span><span>Human capital</span><span>Economic transformation</span></div>
   </div>
 </section>
 

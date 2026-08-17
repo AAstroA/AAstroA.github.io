@@ -13,7 +13,7 @@ redirect_from:
   <div class="cosmos-hero__copy">
     <p class="section-kicker"><span aria-hidden="true"></span>Bocconi University · PhD in Economics and Finance</p>
     <h1 id="hero-title">Alireza<br><span>Moslemihaghighi</span></h1>
-    <p class="cosmos-hero__lede">I study how beliefs, technology, and financial networks shape asset prices, currencies, and the future of skilled work.</p>
+    <p class="cosmos-hero__lede">I study how beliefs, intelligent systems, and financial networks shape asset prices, currencies, production, and the broader economy.</p>
 
     <div class="cosmos-actions">
       <a class="cosmos-button cosmos-button--primary" href="{{ '/research/' | relative_url }}">Explore research <span aria-hidden="true">↗</span></a>
@@ -27,11 +27,16 @@ redirect_from:
     </dl>
   </div>
 
-  <div class="orbital-system" aria-hidden="true">
-    <div class="orbit orbit--outer"><span class="orbit__node orbit__node--one"></span><span class="orbit__label orbit__label--one">Asset pricing</span></div>
-    <div class="orbit orbit--middle"><span class="orbit__node orbit__node--two"></span><span class="orbit__label orbit__label--two">Macro-finance</span></div>
-    <div class="orbit orbit--inner"><span class="orbit__node orbit__node--three"></span><span class="orbit__label orbit__label--three">AI in finance</span></div>
-    <div class="cosmic-core"><small>Research</small><strong>Finance</strong><span>through connected systems</span></div>
+  <div class="cosmos-hero__visual">
+    <div class="orbital-system" aria-hidden="true">
+      <div class="orbit orbit--outer"><span class="orbit__node orbit__node--one"></span><span class="orbit__label orbit__label--one">Asset pricing</span></div>
+      <div class="orbit orbit--middle"><span class="orbit__node orbit__node--two"></span><span class="orbit__label orbit__label--two">Macro-finance</span></div>
+      <div class="orbit orbit--inner"><span class="orbit__node orbit__node--three"></span><span class="orbit__label orbit__label--three">AI in finance</span></div>
+      <div class="cosmic-core"><small>Research</small><strong>Finance</strong><span>through connected systems</span></div>
+    </div>
+    <figure class="hero-portrait">
+      <img src="{{ '/images/alireza-portrait-2026.jpg' | relative_url }}" alt="Portrait of Alireza Moslemihaghighi">
+    </figure>
   </div>
 </section>
 
@@ -53,10 +58,10 @@ redirect_from:
     </article>
 
     <article class="research-card">
-      <p class="card-index">02 · Skilled work</p>
-      <h3>Artificial intelligence and the transformation of skilled work</h3>
-      <p>A macroeconomic model of how AI changes human-capital formation, career progression, and the junior-senior composition of skilled employment.</p>
-      <p class="card-meta">With M. Croce and S. Raymond</p>
+      <p class="card-index">02 · AI in Finance</p>
+      <h3>AI in Finance</h3>
+      <p>How intelligent systems reshape production, firms, markets, human capital, and the allocation of economic activity across the economy.</p>
+      <p class="card-meta">Current project with M. Croce and S. Raymond</p>
     </article>
 
     <article class="research-card">
