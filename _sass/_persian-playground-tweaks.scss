@@ -3,4 +3,9 @@
   .persian-theme .source-grid {
     column-gap: clamp(3.5rem, 5vw, 5rem);
   }
+
+  /* Keep the left source card visibly away from the central divider. */
+  .persian-theme .source-card {
+    padding-right: clamp(4rem, 5.5vw, 5.5rem);
+  }
 }
