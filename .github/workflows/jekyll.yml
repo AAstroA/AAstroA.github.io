@@ -53,6 +53,8 @@ jobs:
             _cv_pdf_chunks/04.b64 \
             _cv_pdf_chunks/05.b64 \
             _cv_pdf_chunks/06.b64 \
+            _cv_pdf_chunks/06a.b64 \
+            _cv_pdf_chunks/06b.b64 \
             _cv_pdf_chunks/07a.b64 \
             _cv_pdf_chunks/07b.b64 \
             _cv_pdf_chunks/08a.b64 \
