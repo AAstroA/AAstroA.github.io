@@ -1,21 +1,60 @@
 {% include base_path %}
 
+{% if page.lang == 'fa' %}
+  {% assign nav_links = site.data.navigation.fa %}
+  {% assign home_path = '/fa/' %}
+  {% assign brand_name = 'علیرضا مسلمی‌حقیقی' %}
+  {% assign brand_fields = 'مالیه · هوش مصنوعی · شبکه‌ها' %}
+  {% assign nav_label = 'ناوبری اصلی' %}
+  {% assign menu_label = 'باز کردن فهرست' %}
+  {% assign switch_path = page.translation_url | default: '/' %}
+  {% assign switch_label = 'EN' %}
+  {% assign switch_name = 'English' %}
+  {% assign switch_aria = 'View this page in English' %}
+{% else %}
+  {% assign nav_links = site.data.navigation.main %}
+  {% assign home_path = '/' %}
+  {% assign brand_name = 'Alireza Moslemihaghighi' %}
+  {% assign brand_fields = 'Finance · AI · Networks' %}
+  {% assign nav_label = 'Primary navigation' %}
+  {% assign menu_label = 'Open navigation' %}
+  {% assign switch_path = page.translation_url | default: '/fa/' %}
+  {% if page.translation_url == nil %}
+    {% if page.url == '/' %}
+      {% assign switch_path = '/fa/' %}
+    {% elsif page.url == '/research/' %}
+      {% assign switch_path = '/fa/research/' %}
+    {% elsif page.url == '/publications/' %}
+      {% assign switch_path = '/fa/publications/' %}
+    {% elsif page.url == '/playground/' %}
+      {% assign switch_path = '/fa/playground/' %}
+    {% elsif page.url == '/cv/' %}
+      {% assign switch_path = '/fa/cv/' %}
+    {% elsif page.url contains '/publication/2021-IEEE' %}
+      {% assign switch_path = '/fa/publication/2021-IEEE/' %}
+    {% endif %}
+  {% endif %}
+  {% assign switch_label = 'فا' %}
+  {% assign switch_name = 'فارسی' %}
+  {% assign switch_aria = 'مشاهده این صفحه به زبان فارسی' %}
+{% endif %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
-        <button aria-label="Open navigation"><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="{{ nav_label }}">
+        <button aria-label="{{ menu_label }}"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg">
-            <a class="site-brand" href="{{ base_path }}/" aria-label="Alireza Moslemihaghighi, home">
-              <span class="site-brand__mark" aria-hidden="true"></span>
+            <a class="site-brand" href="{{ home_path | relative_url }}" aria-label="{{ brand_name }}">
+              <span class="site-brand__mark{% if page.lang == 'fa' %} site-brand__mark--persian{% endif %}" aria-hidden="true"></span>
               <span class="site-brand__copy">
-                <strong>Alireza Moslemihaghighi</strong>
-                <small>Finance · AI · Networks</small>
+                <strong>{{ brand_name }}</strong>
+                <small>{{ brand_fields }}</small>
               </span>
             </a>
           </li>
-          {% for link in site.data.navigation.main %}
+          {% for link in nav_links %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
@@ -26,6 +65,11 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+
+      <a class="language-switcher" href="{{ switch_path | relative_url }}" hreflang="{% if page.lang == 'fa' %}en{% else %}fa{% endif %}" lang="{% if page.lang == 'fa' %}en{% else %}fa{% endif %}" aria-label="{{ switch_aria }}">
+        <strong>{{ switch_label }}</strong>
+        <span>{{ switch_name }}</span>
+      </a>
     </div>
   </div>
 </div>

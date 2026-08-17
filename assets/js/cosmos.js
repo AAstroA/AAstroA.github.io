@@ -27,6 +27,8 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    var isRtl = document.documentElement.getAttribute('dir') === 'rtl';
+
     Array.prototype.forEach.call(document.querySelectorAll('[data-tabs]'), function (group) {
       var tabs = Array.prototype.slice.call(group.querySelectorAll('[role="tab"]'));
 
@@ -37,8 +39,10 @@
 
         tab.addEventListener('keydown', function (event) {
           var nextIndex = null;
-          if (event.key === 'ArrowRight' || event.key === 'ArrowDown') nextIndex = (index + 1) % tabs.length;
-          if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') nextIndex = (index - 1 + tabs.length) % tabs.length;
+          if (event.key === 'ArrowRight') nextIndex = isRtl ? (index - 1 + tabs.length) % tabs.length : (index + 1) % tabs.length;
+          if (event.key === 'ArrowLeft') nextIndex = isRtl ? (index + 1) % tabs.length : (index - 1 + tabs.length) % tabs.length;
+          if (event.key === 'ArrowDown') nextIndex = (index + 1) % tabs.length;
+          if (event.key === 'ArrowUp') nextIndex = (index - 1 + tabs.length) % tabs.length;
           if (event.key === 'Home') nextIndex = 0;
           if (event.key === 'End') nextIndex = tabs.length - 1;
           if (nextIndex !== null) {

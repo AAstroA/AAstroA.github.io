@@ -10,3 +10,16 @@ main:
 
   - title: "CV"
     url: /cv/
+
+fa:
+  - title: "پژوهش"
+    url: /fa/research/
+
+  - title: "انتشارات"
+    url: /fa/publications/
+
+  - title: "آزمایشگاه"
+    url: /fa/playground/
+
+  - title: "رزومه"
+    url: /fa/cv/
