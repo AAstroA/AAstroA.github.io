@@ -22,7 +22,7 @@ author_profile: false
   <div class="cv-timeline">
     <article>
       <div class="cv-timeline__date">۲۰۲۴–۲۰۲۸<br><small>مورد انتظار</small></div>
-      <div><h3>دکتری اقتصاد و مالیه</h3><p>دانشگاه بوکونی · میلان، ایتالیا</p><span class="cv-pill">مالیه</span></div>
+      <div><h3>دکتری اقتصاد و مالی</h3><p>دانشگاه بوکونی · میلان، ایتالیا</p><span class="cv-pill">مالی</span></div>
     </article>
     <article>
       <div class="cv-timeline__date">۲۰۲۱–۲۰۲۴</div>
@@ -44,7 +44,7 @@ author_profile: false
     </article>
     <article>
       <div class="cv-timeline__date">۲۰۲۵–۲۰۲۶</div>
-      <div><h3>دستیار آموزشی · دانشگاه بوکونی</h3><p>مدل‌سازی ریاضی برای مالیه، اقتصاد خرد ۱، مبانی مالیه، و مالیه رفتاری و آزمایشگاهی.</p></div>
+      <div><h3>دستیار آموزشی · دانشگاه بوکونی</h3><p>مدل‌سازی ریاضی مالی، اقتصاد خرد ۱، مبانی مالی، و مالی رفتاری و آزمایشگاهی.</p></div>
     </article>
     <article>
       <div class="cv-timeline__date">۲۰۱۹–۲۰۲۱</div>
@@ -99,7 +99,7 @@ author_profile: false
     <article><h3>برنامه‌نویسی</h3><p><span dir="ltr">Python</span> (عالی)، <span dir="ltr">Julia</span> (خوب)، <span dir="ltr">MATLAB</span> (عالی)، <span dir="ltr">C/C++</span> (متوسط)</p></article>
     <article><h3>ابزارهای علمی</h3><p><span dir="ltr">LaTeX، Git، Microsoft Office</span> · ویندوز و لینوکس</p></article>
     <article><h3>زبان‌ها</h3><p>انگلیسی (پیشرفته) · فارسی (زبان مادری)</p></article>
-    <article><h3>مالیه</h3><p>قیمت‌گذاری دارایی، مهندسی مالی، مالیه زمان پیوسته، یادگیری ماشین مالی، مالیه شرکتی، ریزساختار بازار</p></article>
+    <article><h3>مالی</h3><p>قیمت‌گذاری دارایی، مهندسی مالی، مالی پیوسته‌زمان، یادگیری ماشین مالی، مالی شرکتی، ریزساختار بازار</p></article>
     <article><h3>اقتصادسنجی</h3><p>اقتصادسنجی خرد، اقتصادسنجی سری زمانی، اقتصادسنجی کاربردی</p></article>
     <article><h3>آمار و یادگیری ماشین</h3><p>احتمال پربعد، استنباط علّی، نظریه یادگیری ماشین، فرایندهای تصادفی، پردازش زبان طبیعی، مکانیک آماری، بینایی ماشین</p></article>
     <article><h3>ریاضیات و محاسبات</h3><p>بهینه‌سازی ترکیبی، نظریه ماتروید، هوش محاسباتی، علوم اعصاب محاسباتی</p></article>

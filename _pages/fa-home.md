@@ -5,12 +5,12 @@ layout: cosmos-home
 lang: fa
 translation_url: /
 author_profile: false
-excerpt: "پژوهشگر دکتری مالیه در دانشگاه بوکونی با تمرکز بر قیمت‌گذاری دارایی، مالیه کلان، شبکه‌های مالی و هوش مصنوعی."
+excerpt: "پژوهشگر دکتری مالی در دانشگاه بوکونی با تمرکز بر قیمت‌گذاری دارایی، مالی کلان، شبکه‌های مالی و هوش مصنوعی."
 ---
 
 <section class="cosmos-hero persian-hero" aria-labelledby="hero-title-fa">
   <div class="cosmos-hero__copy persian-hero__copy">
-    <p class="section-kicker"><span aria-hidden="true"></span>دانشگاه بوکونی · دکتری اقتصاد و مالیه</p>
+    <p class="section-kicker"><span aria-hidden="true"></span>دانشگاه بوکونی · دکتری اقتصاد و مالی</p>
 
     <div class="hero-identity persian-identity">
       <figure class="hero-portrait persian-portrait">
@@ -32,39 +32,21 @@ excerpt: "پژوهشگر دکتری مالیه در دانشگاه بوکونی 
     <dl class="hero-facts" aria-label="خلاصه مشخصات">
       <div><dt>دوره</dt><dd>دکتری، ۲۰۲۴–۲۰۲۸</dd></div>
       <div><dt>محل</dt><dd>میلان، ایتالیا</dd></div>
-      <div><dt>حوزه‌ها</dt><dd>مالیه · هوش مصنوعی · شبکه‌ها</dd></div>
+      <div><dt>حوزه‌ها</dt><dd>مالی · هوش مصنوعی · شبکه‌ها</dd></div>
     </dl>
   </div>
 
-  <div class="cosmos-hero__visual achaemenid-visual" aria-hidden="true">
-    <div class="achaemenid-visual__frame">
-      <svg class="winged-disc" viewBox="0 0 640 300" role="img">
-        <g class="winged-disc__wings">
-          <path d="M282 132C230 88 154 80 74 105c46 5 83 21 112 47-38-11-78-9-119 5 47 13 88 33 123 61 31-18 61-38 92-60Z"/>
-          <path d="M358 132c52-44 128-52 208-27-46 5-83 21-112 47 38-11 78-9 119 5-47 13-88 33-123 61-31-18-61-38-92-60Z"/>
-          <path d="M279 151c-55-25-112-28-171-9 46 9 89 29 128 59l47-30Z"/>
-          <path d="M361 151c55-25 112-28 171-9-46 9-89 29-128 59l-47-30Z"/>
-        </g>
-        <circle class="winged-disc__sun" cx="320" cy="132" r="62"/>
-        <circle class="winged-disc__ring" cx="320" cy="132" r="39"/>
-        <path class="winged-disc__tail" d="M292 187l-25 78 45-34 8 54 8-54 45 34-25-78Z"/>
-        <path class="winged-disc__lotus" d="M320 92c-9 12-15 23-15 34 0 10 5 19 15 27 10-8 15-17 15-27 0-11-6-22-15-34Zm-22 10c-14 7-24 16-29 27 7 3 14 4 21 2-3 8-3 16 1 24 13-6 22-15 27-28-1-10-7-18-20-25Zm44 0c14 7 24 16 29 27-7 3-14 4-21 2 3 8 3 16-1 24-13-6-22-15-27-28 1-10 7-18 20-25Z"/>
-      </svg>
-
-      <div class="imperial-core">
-        <small>پژوهش</small>
-        <strong>مالیه</strong>
-        <span>در سامانه‌های به‌هم‌پیوسته</span>
+  <div class="cosmos-hero__visual achaemenid-visual">
+    <figure class="achaemenid-hero-card">
+      <div class="achaemenid-hero-card__image">
+        <img src="{{ '/images/achaemenid-home-art.webp' | relative_url }}" alt="تصویری هنری الهام‌گرفته از نقش‌برجسته‌ها و معماری هخامنشی">
       </div>
-
-      <div class="persepolis-columns">
-        <span></span><span></span><span></span><span></span><span></span>
-      </div>
-      <div class="stone-steps"><i></i><i></i><i></i></div>
-      <div class="relief-label relief-label--one">قیمت‌گذاری دارایی</div>
-      <div class="relief-label relief-label--two">مالیه کلان</div>
-      <div class="relief-label relief-label--three">هوش مصنوعی در مالیه</div>
-    </div>
+      <figcaption class="achaemenid-hero-card__topics" aria-label="موضوعات پژوهشی">
+        <span>قیمت‌گذاری دارایی</span>
+        <span>مالی کلان</span>
+        <span>هوش مصنوعی در مالی</span>
+      </figcaption>
+    </figure>
   </div>
 </section>
 
@@ -86,7 +68,7 @@ excerpt: "پژوهشگر دکتری مالیه در دانشگاه بوکونی 
     </article>
 
     <article class="research-card">
-      <p class="card-index">۰۲ · هوش مصنوعی در مالیه</p>
+      <p class="card-index">۰۲ · هوش مصنوعی در مالی</p>
       <h3>هوش مصنوعی و دگرگونی کار تخصصی</h3>
       <p>مدلی کلان برای مطالعه اینکه هوش مصنوعی چگونه شکل‌گیری سرمایه انسانی، مسیر شغلی و ترکیب نیروهای جوان و ارشد را تغییر می‌دهد.</p>
       <p class="card-meta">با <span dir="ltr">M. Croce و S. Raymond</span></p>
@@ -107,7 +89,7 @@ excerpt: "پژوهشگر دکتری مالیه در دانشگاه بوکونی 
     <h2>دستیار پژوهشی در دانشگاه بوکونی.</h2>
     <p>از دسامبر ۲۰۲۴ در پروژه‌های پروفسور اوتاویانو، پروفسور گودکر و آزمایشگاه فین‌تک بوکونی درباره تجارت بین‌الملل، شبکه‌های مالی و رفتار واسطه‌ها همکاری پژوهشی دارم.</p>
     <div class="tag-cloud" aria-label="علایق پژوهشی">
-      <span>قیمت‌گذاری دارایی</span><span>مالیه کلان</span><span>هوش مصنوعی در مالیه</span><span>مالیه کمی</span>
+      <span>قیمت‌گذاری دارایی</span><span>مالی کلان</span><span>هوش مصنوعی در مالی</span><span>مالی کمی</span>
     </div>
   </div>
 
