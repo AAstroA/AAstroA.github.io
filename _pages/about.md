@@ -59,9 +59,9 @@ redirect_from:
 
     <article class="research-card">
       <p class="card-index">02 · AI in Finance</p>
-      <h3>AI in Finance</h3>
-      <p>How intelligent systems reshape production, firms, markets, human capital, and the allocation of economic activity across the economy.</p>
-      <p class="card-meta">Current project with M. Croce and S. Raymond</p>
+      <h3>Artificial intelligence and the transformation of skilled work</h3>
+<p>A macroeconomic model of how AI changes human-capital formation, career progression, and the junior-senior composition of skilled employment.</p>
+<p class="card-meta">With M. Croce and S. Raymond</p>
     </article>
 
     <article class="research-card">

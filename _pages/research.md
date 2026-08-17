@@ -47,7 +47,7 @@ author_profile: false
   <div class="research-detail__body">
     <p class="section-kicker">Research area</p>
     <h2>AI in Finance</h2>
-    <p>My research in this area asks how intelligent systems alter the economy more broadly: production, firm organization, market structure, decision-making, human-capital formation, and the distribution of economic activity. Skilled work is one important margin within this larger agenda, rather than the defining scope of it.</p>
+    <p>My research in this area asks how intelligent systems alter the economy more broadly: production, firm organization, market structure, decision-making, human-capital formation, and the distribution of economic activity.</p>
 
     <div class="ai-project-note">
       <p class="section-kicker">Current project</p>
