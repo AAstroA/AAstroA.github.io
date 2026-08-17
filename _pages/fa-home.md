@@ -8,6 +8,18 @@ author_profile: false
 excerpt: "دانشجوی دکتری مالی در دانشگاه بوکونی با تمرکز بر قیمت‌گذاری دارایی، مالی کلان، شبکه‌های مالی و هوش مصنوعی."
 ---
 
+<style>
+  .page-fa .fa-hero__identity {
+    grid-template-columns: clamp(128px, 12vw, 190px) minmax(0, 1fr);
+  }
+
+  @media (max-width: 720px) {
+    .page-fa .fa-hero__identity {
+      grid-template-columns: 112px minmax(0, 1fr);
+    }
+  }
+</style>
+
 <section class="fa-hero" aria-labelledby="fa-hero-title">
   <div class="fa-hero__stage">
     <div class="fa-hero__copy">
