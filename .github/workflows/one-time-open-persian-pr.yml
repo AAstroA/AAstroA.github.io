@@ -1,0 +1,34 @@
+name: Open Persian pull request
+
+on:
+  push:
+    branches:
+      - codex/add-persian-achaemenid
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  open:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create pull request if needed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing=$(gh pr list --repo "${{ github.repository }}" --head codex/add-persian-achaemenid --base master --state open --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            gh pr create \
+              --repo "${{ github.repository }}" \
+              --head codex/add-persian-achaemenid \
+              --base master \
+              --title "Add Persian Achaemenid-inspired website" \
+              --body "## Persian edition\n- adds a persistent English/Persian language selector\n- translates the homepage, research, publications, publication detail, student playground, and CV\n- keeps the information architecture and academic content aligned with the English edition\n- introduces an independent RTL visual system inspired by Achaemenid stone reliefs, Persepolis columns, lotus rosettes, stepped motifs, lapis, turquoise, clay, ivory, and gold\n- preserves responsive behavior, keyboard navigation, print styling, and reduced-motion support\n\nThe English astronomy experience remains unchanged."
+          fi
+          rm -f .github/workflows/one-time-open-persian-pr.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Remove one-time PR workflow"
+          git push
