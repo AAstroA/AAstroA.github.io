@@ -10,37 +10,14 @@ var $btn = $('#site-nav button');
 var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
-var breaks = [];
-
-function visibleLinksWidth() {
-  var width = 0;
-  $vlinks.children().each(function() {
-    width += $(this).outerWidth(true);
-  });
-  return width;
-}
-
 function updateNav() {
-  // Rebuild from the complete ordered list on each resize. This keeps the
-  // calculation deterministic and bounds the work by the number of links.
-  $hlinks.children().appendTo($vlinks);
-  $btn.addClass('hidden');
-  breaks = [];
+  // Use one consistent dropdown menu at every viewport width. Keep the brand
+  // visible and move every page link into the dropdown.
+  $vlinks.children('*:not(.masthead__menu-item--lg)').appendTo($hlinks);
 
-  var availableSpace = $nav.width();
-  var remainingMoves = $vlinks.children('*:not(.masthead__menu-item--lg)').length;
-
-  while(visibleLinksWidth() > availableSpace && remainingMoves > 0) {
-    var $item = $vlinks.children('*:not(.masthead__menu-item--lg)').last();
-
+  if($hlinks.children().length > 0) {
     $btn.removeClass('hidden');
-    availableSpace = $nav.width() - $btn.outerWidth(true) - 30;
-    breaks.push(visibleLinksWidth());
-    $item.prependTo($hlinks);
-    remainingMoves--;
-  }
-
-  if($hlinks.children().length < 1) {
+  } else {
     $btn.addClass('hidden');
     $hlinks.addClass('hidden');
   }

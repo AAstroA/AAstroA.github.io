@@ -25,13 +25,6 @@
           </span>
         </a>
 
-        <nav class="fa-primary-nav" aria-label="ناوبری اصلی">
-          <a href="{{ '/fa/' | relative_url }}">خانه</a>
-          {% for link in nav_links %}
-            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
-          {% endfor %}
-        </nav>
-
         <div class="fa-nav-controls">
           <a class="fa-language-switcher" href="{{ switch_path | relative_url }}" hreflang="en" lang="en" aria-label="View this page in English">
             <strong>EN</strong>
