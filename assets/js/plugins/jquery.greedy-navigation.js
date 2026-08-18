@@ -15,15 +15,28 @@ var breaks = [];
 function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  var movedItem = false;
 
   // The visible list is overflowing the nav
   if($vlinks.width() > availableSpace) {
+
+    var $item = $vlinks.children('*:not(.masthead__menu-item--lg)').last();
+
+    // At very narrow widths the fixed brand can be wider than the available
+    // space. Stop here when there is no movable link instead of recursing
+    // forever on an unchanged navigation layout.
+    if(!$item.length) {
+      $btn.removeClass('hidden');
+      $btn.attr("count", breaks.length);
+      return;
+    }
 
     // Record the width of the list
     breaks.push($vlinks.width());
 
     // Move item to the hidden list
-    $vlinks.children('*:not(.masthead__menu-item--lg)').last().prependTo($hlinks);
+    $item.prependTo($hlinks);
+    movedItem = true;
 
     // Show the dropdown btn
     if($btn.hasClass('hidden')) {
@@ -52,7 +65,7 @@ function updateNav() {
   $btn.attr("count", breaks.length);
 
   // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace) {
+  if(movedItem && $vlinks.width() > availableSpace) {
     updateNav();
   }
 
